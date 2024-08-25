@@ -1,0 +1,90 @@
+.blog-cont{
+    width: 350px;
+    background: rgb(221, 207, 219);
+    padding: 23px;
+    border-radius: 18px;
+
+}
+.main-blog-div{
+    width: 60%;
+}
+.username{
+    font-size: 20px;
+}
+.posttime{
+    font-size: 11px;
+    position: relative;
+    bottom: 16px;
+}
+.postdate{
+    font-size: 12px;
+}
+.datediv{
+    position: relative;
+    bottom: 11px;
+
+}
+.cont-div{
+    position: relative;
+    bottom: 20px;
+}
+.blogs-time{
+    font-size: 12px;
+    position: relative;
+    bottom: 15px;
+}
+.blog-date{
+    font-size: 12px;
+}
+.blog-head1{
+    font-size: 45px;
+
+}
+.det-cont{
+    text-align: justify;
+
+}
+
+
+@media (max-width:850px){
+    .blog-head1{
+        font-size: 38px;
+    
+    }
+    .det-cont{
+        text-align: justify;
+        font-size: 15px;
+    
+    }
+ 
+    .main-blog-div{
+        width: 75%;
+    }
+
+}
+
+@media (max-width:500px)
+{
+    .main-blog-div{
+        width: 90%;
+    }
+}
+
+
+ @media(max-width:375px){
+    .main-blog-div{
+        width: 93%;
+    }
+    .blog-head1{
+        font-size: 34px;
+    
+    }
+    .det-cont{
+        position: relative;
+        bottom: 20px;
+        text-align: justify;
+        font-size: 12px;
+    
+    }
+
+ }

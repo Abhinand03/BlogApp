@@ -1,0 +1,32 @@
+.user-blog1{
+    height: 10px;
+
+}
+.user-p{
+    position: relative;
+    bottom: 20px;
+    font-size: 14px
+}
+
+@media (max-width:965px){
+    .user-p2{
+        font-size: 13px;
+    }
+    .user-p{
+        position: relative;
+        bottom: 20px;
+        font-size: 12px
+    }
+    .user-blog-h1{
+        font-size: 16px;
+
+    }
+    
+}
+@media (max-width:766px){
+    .blog-modi{
+        display: flex;
+        flex-direction: column;
+     
+    }
+}

@@ -1,0 +1,28 @@
+.user-blog{
+    display: flex;
+    justify-content: center;
+}
+
+.user-det{
+    height: 23rem;
+    padding: 24px;
+}
+.ur-h
+{
+    font-size: 18px;
+   
+}
+.ur-blog3{
+    width: 90%;
+}
+
+
+@media (max-width:870px){
+    .ur-h
+    {
+        font-size: 18px;
+    }
+    .ur-blog3{
+        width: 98%;
+    }
+}

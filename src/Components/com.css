@@ -1,0 +1,46 @@
+.comm-inp{
+    width: 90%;
+}
+.com-main{
+    background: #d6d6d6;
+    border-radius: 38px;
+    padding-bottom: 27px;
+
+}
+.com-h6{
+    position: relative;
+    top: 14px;
+    left: 33px;
+
+}
+.com-p{
+    position: relative;
+    text-align: justify;
+    top: 15px;
+    padding-left: 35px;
+}
+
+
+@media (max-width:550px){
+    .com-h6{
+        position: relative;
+        top: 14px;
+        left: 33px;
+        font-size: 15px;
+    
+    }
+    .com-p{
+        position: relative;
+        text-align: justify;
+        top: 9px;
+        padding-left: 35px;
+        font-size: 13px;
+    }
+    .com-main{
+        background: #d6d6d6;
+        border-radius: 38px;
+        padding-bottom: 9px;
+    
+    }
+
+}
