@@ -1,7 +1,7 @@
 import React, { useContext, useEffect, useState } from 'react'
 import Navbar from '../Components/Navbar'
 import { Row, Col } from 'react-bootstrap'
-import './Pro.css'
+import './profile.css'
 import Userblogs from '../Components/Userblogs'
 import { userblog } from '../Service/Allapi'
 import { statusupdate } from '../Context/Context'
