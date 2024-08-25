@@ -1,6 +1,6 @@
 import { commanapi } from "./axios";
 
-const baseURL="http://localhost:4000"
+const baseURL="https://blogserver-wagi.onrender.com"
 
 //user registration
 export const register =async(data)=>{
